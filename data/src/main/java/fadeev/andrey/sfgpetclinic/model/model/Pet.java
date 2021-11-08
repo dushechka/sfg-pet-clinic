@@ -1,4 +1,4 @@
-package fadeev.andrey.sfgpetclinic.model;
+package fadeev.andrey.sfgpetclinic.model.model;
 
 import lombok.Getter;
 import lombok.Setter;
