@@ -1,4 +1,3 @@
 rootProject.name = 'sfg-pet-clinic'
 include 'web'
 include 'data'
-
