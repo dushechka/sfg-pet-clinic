@@ -24,9 +24,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-tasks {
-    bootJar {
-        mainClass = ''
-    }
-}
