@@ -1,15 +1,33 @@
 package fadeev.andrey.sfgpetclinic.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.time.LocalDate;
 
 public class Pet {
-    @Getter @Setter
     private PetType petType;
-    @Getter @Setter
     private Owner owner;
-    @Getter @Setter
     private LocalDate birthDate;
+
+    public PetType getPetType() {
+        return petType;
+    }
+
+    public void setPetType(PetType petType) {
+        this.petType = petType;
+    }
+
+    public Owner getOwner() {
+        return owner;
+    }
+
+    public void setOwner(Owner owner) {
+        this.owner = owner;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
 }
